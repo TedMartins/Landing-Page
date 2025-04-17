@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Challenge 01 by Ted Martins - A landing page for The Odin Project"
+    />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <script src="./assets/scripts/main.js" defer></script>
+    <title>Challenge 01 by Ted Martins</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav class="content">
+          <div class="logo">
+            <img src="./assets/imgs/challenge.png" alt="Challenge logo" />
+          </div>
+          <div class="links">
+            <ul>
+              <li><a href="#info">Information</a></li>
+              <li><a href="#customers">Customers</a></li>
+              <li><a href="#cta">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="hero content">
+          <div class="description">
+            <div class="title">
+              <h1>This Challenge is awesome</h1>
+            </div>
+            <div class="subtext">
+              <p>
+                This landing page was constructed for educational purposes only.
+                It is a challenge from
+                <a
+                  href="https://www.theodinproject.com/lessons/foundations-landing-page"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >The Odin Project</a
+                >
+                to improve HTML and CSS skills.
+              </p>
+            </div>
+
+            <div>
+              <button id="toggleFake" class="button" aria-label="Sign Up">
+                Sign Up
+              </button>
+            </div>
+
+            <div class="dummy">
+              <p>This is a dummy button action.</p>
+            </div>
+          </div>
+
+          <div
+            class="image"
+            role="img"
+            aria-label="Decorative landscape image"
+          ></div>
+        </div>
+      </header>
+
+      <main id="info" class="main content">
+        <div class="info">
+          <div class="title">
+            <h2>Challenge Web Design Template</h2>
+          </div>
+          <div class="cards">
+            <div class="card">
+              <div class="img-container">
+                <img
+                  src="https://images.unsplash.com/photo-1628258334105-2a0b3d6efee1?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3"
+                  alt="Decorative image 1"
+                  class="img"
+                  loading="lazy"
+                />
+              </div>
+              <p>Provisional Text Placeholder to Ensure Spacing Consistency.</p>
+            </div>
+            <div class="card">
+              <div class="img-container">
+                <img
+                  src="https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=2564&auto=format&fit=crop&ixlib=rb-4.0.3"
+                  alt="Decorative image 2"
+                  class="img"
+                  loading="lazy"
+                />
+              </div>
+              <p>Sample Text Block to Preserve Structural Spacing.</p>
+            </div>
+            <div class="card">
+              <div class="img-container">
+                <img
+                  src="https://images.unsplash.com/photo-1603732551658-5fabbafa84eb?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3"
+                  alt="Decorative image 3"
+                  class="img"
+                  loading="lazy"
+                />
+              </div>
+              <p>Placeholder Content to Maintain Layout Spacing.</p>
+            </div>
+            <div class="card">
+              <div class="img-container">
+                <img
+                  src="https://images.unsplash.com/photo-1659215609160-fd5afc42b8ed?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3"
+                  alt="Decorative image 4"
+                  class="img"
+                  loading="lazy"
+                />
+              </div>
+              <p>Provisional Text Placeholder to Ensure Spacing Consistency.</p>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <section id="customers" class="customer container">
+        <div class="quote">
+          <blockquote>
+            This is an inspiring quote, or a testimonial from a customer. Maybe
+            it's just filling up space, or maybe people will actually read it.
+            Who knows? All I know is that it looks nice.
+            <footer class="quote-author">–Thor, God of Thunder</footer>
+          </blockquote>
+        </div>
+      </section>
+
+      <section id="cta" class="cta container content">
+        <div class="banner">
+          <div class="cta-content">
+            <h3>Call to action! It's time!</h3>
+            <p>
+              Sign up for our product by clicking that button right over there!
+            </p>
+          </div>
+          <div class="cta-button">
+            <button class="button outline" aria-label="Sign up now">
+              Sign up
+            </button>
+          </div>
+        </div>
+
+        <div id="success-notification" class="notification">
+          <div class="notification-content">
+            <span class="notification-icon">✓</span>
+            <span class="notification-message">Your click has been sent!</span>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="content">
+          <p>
+            2021 – <span id="currentYear"></span> © Copyright
+            <a
+              href="https://www.theodinproject.com/lessons/foundations-landing-page"
+              target="_blank"
+              rel="noopener noreferrer"
+              >The Odin Project </a
+            >
+            | Challenge by
+            <a
+              href="https://github.com/tedmartins"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Ted Martins</a
+            >
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
